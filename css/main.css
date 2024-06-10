@@ -50,6 +50,37 @@ footer h4 {
     font-size: 2rem;
 }
 
+
+/* cookies */
+#cookieConsent {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    display: none;
+    z-index: 1000;
+}
+#cookieConsent a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+#cookieConsent button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#cookieConsent button#rejectCookies {
+    background-color: #f44336; 
+}
+
+
+
+
 @media (max-width: 1000px) {
     .qr {
         width: 4rem;
