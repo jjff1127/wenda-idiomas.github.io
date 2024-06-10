@@ -3,24 +3,24 @@ document.addEventListener("DOMContentLoaded", function() {
     var acceptCookiesButton = document.getElementById('acceptCookies');
     var rejectButton = document.getElementById('rejectCookies');
 
-    // 检查是否已同意Cookies
+    // Accepted Cookies?
     if (!getCookie('cookieConsent')) {
         cookieConsent.style.display = 'block';
     }
 
-    // 用户点击“接受”按钮时设置cookie
+    // Button accept
     acceptCookiesButton.addEventListener('click', function() {
         setCookie('cookieConsent', 'true', 365);
         cookieConsent.style.display = 'none';
     });
 
-    // 用户点击“拒绝”按钮时删除cookie并隐藏提示
+    // button reject
     rejectButton.addEventListener('click', function() {
         deleteCookie('cookieConsent');
         cookieConsent.style.display = 'none';
     });
 
-    // 设置cookie的函数
+    // set Cookies
     function setCookie(name, value, days) {
         var expires = "";
         if (days) {
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.cookie = name + "=" + (value || "") + expires + "; path=/";
     }
 
-    // 获取cookie的函数
+    // get cookies
     function getCookie(name) {
         var nameEQ = name + "=";
         var ca = document.cookie.split(';');
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
         return null;
     }
 
-    // 删除cookie的函数
+    // delete cookie
     function deleteCookie(name) {
         document.cookie = name + '=; Max-Age=-99999999;';
     }
