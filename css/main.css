@@ -1,6 +1,9 @@
 body {
     background-color: #faf3d9;
 }
+.logo{
+    width: 6rem;
+}
 /* first 3 items image */
 .grid-item {
     height: 20rem;
@@ -60,6 +63,9 @@ footer h4 {
 }
 
 @media (max-width: 786px) {
+    .logo{
+        width: 4rem;
+    }
     .qr {
         width: 4rem;
         height: 4rem;
@@ -89,6 +95,9 @@ footer h4 {
     .qr {
         width: 2.5rem;
         height: 2.5rem;
+    }
+    .logo{
+        width: 2.5rem;
     }
 
     .qr-container span {
