@@ -1,0 +1,104 @@
+body {
+    background-color: #faf3d9;
+}
+/* first 3 items image */
+.grid-item {
+    height: 20rem;
+}
+
+/* second 2 items image */
+.service-item {
+    height: 25rem;
+}
+
+/*cart text*/
+.description {
+    min-height: 120px;
+    max-height: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-title {
+    min-height: 50px;
+}
+
+/* footer backgroud*/
+.footer {
+    background-image: url("../images/footer.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 28rem;
+    width: 100%;
+}
+
+/* footer QR image*/
+.qr {
+    width: 7rem;
+    height: 7rem;
+}
+/* footer QR text*/
+.qr-container span {
+    font-size: 1rem;
+}
+/* footer text*/
+footer h4 {
+    font-size: 2rem;
+}
+
+@media (max-width: 1000px) {
+    .qr {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .footer {
+        height: 20rem;
+
+    }
+}
+
+@media (max-width: 786px) {
+    .qr {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .footer {
+        height: 15rem;
+
+    }
+
+    .qr-container span {
+        font-size: 0.875rem;
+
+    }
+
+    footer h4 {
+        font-size: 1.25rem;
+
+    }
+}
+
+@media (max-width: 576px) {
+    .footer {
+        height: 10rem;
+    }
+
+    .qr {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .qr-container span {
+        font-size: 0.75rem;
+
+    }
+
+    footer h4 {
+        font-size: 1rem;
+
+    }
+
+}
