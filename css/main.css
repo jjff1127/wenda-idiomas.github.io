@@ -1,40 +1,11 @@
-body {
-    background-color: #faf3d9;
-}
+
 .logo{
-    width: 6rem;
-}
-/* first 3 items image */
-.grid-item {
-    height: 20rem;
+    width: 4rem;
 }
 
-/* second 2 items image */
-.service-item {
-    height: 25rem;
-}
 
-/*cart text*/
-.description {
-    min-height: 120px;
-    max-height: 120px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
 
-.card-title {
-    min-height: 50px;
-}
 
-/* footer backgroud*/
-.footer {
-    background-image: url("../images/footer.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 28rem;
-    width: 100%;
-}
 
 /* footer QR image*/
 .qr {
@@ -78,6 +49,47 @@ footer h4 {
     background-color: #f44336; 
 }
 
+/*home*/
+.block1 {
+    background-image: url('../images/backgroud1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 8rem;
+    padding-top: 8rem;
+    background-color: white;
+    background-position: center;
+}
+/*about us*/
+.block2 {
+    background-color: color-mix(in srgb, #212529, transparent 94%);
+
+}
+
+/*header*/
+.custom-text {
+    color: black;
+
+    font-weight: bold;
+}
+/*text*/
+.custom-text2 {
+    color: black;
+    font-size: 0.75rem;
+
+}
+/*icon*/
+.icon-background {
+    background-color: color-mix(in srgb, #ce1212, transparent 95%);
+    border-radius: 50px;
+    color: #ce1212;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+
+}
+
 
 
 
@@ -91,6 +103,7 @@ footer h4 {
         height: 20rem;
 
     }
+
 }
 
 @media (max-width: 786px) {
@@ -116,6 +129,10 @@ footer h4 {
         font-size: 1.25rem;
 
     }
+
+
+
+
 }
 
 @media (max-width: 576px) {
@@ -149,6 +166,17 @@ footer h4 {
         padding: 8px 16px;
         margin: 3px;
     }
+    .block1 {
+
+        padding-bottom: 1rem;
+
+    }
+
+
 
 }
+
+
+
+
 
