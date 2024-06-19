@@ -61,7 +61,7 @@ footer h4 {
 }
 /*about us*/
 .block2 {
-    background-color: color-mix(in srgb, #212529, transparent 94%);
+    background-color: #F2F2F2;
 
 }
 
@@ -79,7 +79,7 @@ footer h4 {
 }
 /*icon*/
 .icon-background {
-    background-color: color-mix(in srgb, #ce1212, transparent 95%);
+    background-color: #FCF3F3;
     border-radius: 50px;
     color: #ce1212;
     display: inline-flex;
