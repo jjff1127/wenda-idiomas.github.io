@@ -172,6 +172,12 @@ footer h4 {
 
     }
 
+    #headerNav > button, #headerNav > div{
+
+        
+        display: none;
+    }
+
 
 
 }
